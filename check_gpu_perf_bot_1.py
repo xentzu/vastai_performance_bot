@@ -98,7 +98,7 @@ def clean_ansi_codes(input_string):
     return ansi_escape.sub('', input_string)
 
 def get_log_info(ssh_host, ssh_port, username):
-    private_key_path = "/home/admin/.ssh/id_ed25519"
+    private_key_path = "/Users/ackebomboom/.ssh/id_ed25519"
     
     # Create an SSH client
     ssh = paramiko.SSHClient()
